@@ -1,1 +1,10 @@
 {% extends 'base.html' %}
+
+
+{% block reg %}
+    <form action="/reg" method="post">
+        <input type="text" name="login" id="" placeholder="Введите свой логин">
+        <input type="text" name="password" id="" placeholder="Введите свой пароль">
+        <button type="submit">Checkout</button>
+    </form>
+{% endblock %}
